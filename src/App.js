@@ -2,7 +2,11 @@
 import React from 'react';
 
 
-class App extends React.component{
+class App extends React.component {
+
+  state = {
+    peopleInSpace: []
+  }
 
   render(){
     return (
