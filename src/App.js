@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 
 
-class App extends React.component {
+class App extends Component {
 
   state = {
     peopleInSpace: []
